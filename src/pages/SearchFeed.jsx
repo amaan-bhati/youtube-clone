@@ -41,5 +41,4 @@ function SearchFeed() {
     </>
   )
 }
-
 export default SearchFeed
