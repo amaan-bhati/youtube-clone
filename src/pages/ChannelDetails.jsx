@@ -24,7 +24,6 @@ function ChannelDetails() {
       <div className={`sm:hidden overlayEffect ${sidebarExtend ? "block" : "hidden"}`}></div>
 
       <div className={`pt-14 ml-4 pl-0  ${sidebarExtend ? "sm:pl-[180px]" : "sm:pl-[70px]"}`}>
-        {/* <img style={{ backgroundSize: "cover" }} className='w-[100%] h-[100px]' src= /> */}
         <img className='w-[100%] h-[120px] sm:h-[160px] lg:h-[210px] bg-cover' style={{ background: `url(${channelDetails?.brandingSettings?.image?.bannerExternalUrl})` }} />
         <div className='flex gap-x-5 items-center my-5'>
           <img className='rounded-[40px] w-12 h-12 md:w-16 md:h-16' src={channelDetails?.snippet?.thumbnails?.medium?.url} />
